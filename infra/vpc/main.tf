@@ -19,5 +19,5 @@ module "vpc" {
 }
 resource "aws_key_pair" "project04-key" { 
   key_name = "project04-key" # 생성될 키페어의 이름
-  public_key = file("~/.ssh/client.pub") # 키페어에 사용할 public key 지정
+  public_key = file("~/.ssh/project04.pub") # 키페어에 사용할 public key 지정
 }
