@@ -1,5 +1,5 @@
 variable "backend_s3" {
-  default = "project00-tfbackend-s3"
+  default = "project04-tfbackend-s3"
 }
 
 variable "region" {

@@ -1,5 +1,5 @@
-env   = "project00"
-name  = "project00-jenkins"
+env   = "project04"
+name  = "project04-jenkins"
 owner = "busanit"
 tags  = {}
 
