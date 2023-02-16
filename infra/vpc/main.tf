@@ -17,3 +17,7 @@ module "vpc" {
   private_subnet_tags = local.private_subnet_tags
   vpc_tags            = local.vpc_tags
 }
+resource "aws_key_pair" "project04-key" { 
+  key_name = "project04-key" # 생성될 키페어의 이름
+  public_key = file("~/.ssh/client.pub") # 키페어에 사용할 public key 지정
+}
