@@ -1,11 +1,11 @@
 variable "bucket_name" {
   description = "The name of the S3 bucket. Must be globally unique."
   type        = string
-  default     = "project00-tfbackend-s3"
+  default     = "project04-tfbackend-s3"
 }
 
 variable "table_name" {
   description = "The name of the DynamoDB table. Must be unique in this AWS account."
   type        = string
-  default     = "project00-tfbackend-locks"
+  default     = "project04-tfbackend-locks"
 }
