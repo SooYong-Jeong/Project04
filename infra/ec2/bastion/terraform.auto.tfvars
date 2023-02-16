@@ -1,5 +1,5 @@
-env   = "project00"
-name  = "project00-bastion"
+env   = "project04"
+name  = "project04-bastion"
 owner = "busanit"
 tags  = {}
 
@@ -14,11 +14,11 @@ ami_filters = [
 
 # EC2
 instance_type = "t2.micro"
-key_name      = "project00-key"
+key_name      = "project04-key"
 
 # ssh sg
 ssh_sg_description      = "SSH Security group for Bastion EC2 instance"
-ssh_ingress_cidr_blocks = ["0.0.0.0/0"]
+ssh_ingress_cidr_blocks = ["10.4.0.0/0"]
 ssh_ingress_rules       = ["ssh-tcp"]
 ssh_egress_rules        = ["all-all"]
 
