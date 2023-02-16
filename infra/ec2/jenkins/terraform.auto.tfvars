@@ -1,5 +1,5 @@
-env   = "project00"
-name  = "project00-jenkins"
+env   = "project04"
+name  = "project04-jenkins"
 owner = "busanit"
 tags  = {}
 
@@ -15,7 +15,7 @@ ami_filters = [
 # EC2
 instance_type = "t3.large"
 key_name      = "project00-key"
-private_ip    = "10.0.1.100"
+private_ip    = "10.4.1.100"
 
 # iam
 trusted_role_services = ["ec2.amazonaws.com"]
