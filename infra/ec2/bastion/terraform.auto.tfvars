@@ -8,7 +8,7 @@ ami_owners = ["099720109477"]
 ami_filters = [
   {
     name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-project04"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
   }
 ]
 
