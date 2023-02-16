@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.large"
-key_name      = "project00-key"
+key_name      = "project04-key"
 private_ip    = "10.4.1.100"
 
 # iam
