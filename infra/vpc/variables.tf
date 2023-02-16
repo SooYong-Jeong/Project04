@@ -3,7 +3,7 @@ variable "name" {}
 variable "owner" {}
 variable "region" {}
 
-variable "vpc_cidr" {10.4.0.0/16}
+variable "vpc_cidr" {}
 variable "azs" {}
 variable "private_subnets" {}
 variable "public_subnets" {}
